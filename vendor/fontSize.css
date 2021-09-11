@@ -1,1 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap')
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(../fonts/Inter-Regular.woff2),
+    url(../fonts/Inter-Regular.woff);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(../fonts/Inter-Bold.woff2),
+    url(../fonts/Inter-Bold.woff);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(../fonts/Inter-Black.woff2),
+    url(../fonts/Inter-Black.woff);
+    font-style: normal;
+    font-weight: 900;
+}
