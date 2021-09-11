@@ -1,0 +1,24 @@
+.place__website {
+    width: 456px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        width: calc(100% - 104px);
+        margin-left: 38px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        width: calc(100% - 32px);
+        margin: 0 auto 32px;
+    }
+}

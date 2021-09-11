@@ -1,0 +1,23 @@
+.lead__image {
+    width: calc(100%);
+    height: 615px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        height: calc(100% - 35px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        height: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        height: calc(100% - 280px);
+    }
+}

@@ -1,0 +1,10 @@
+
+.footer__link_discharge-margin {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link_discharge-margin {
+        margin-bottom: 0;
+    }
+}
