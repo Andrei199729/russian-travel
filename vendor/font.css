@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Inter', sans-serif;
-    src: url(../fonts/Inter-Regular.woff2),
-    url(../fonts/Inter-Regular.woff);
+    src: url(Inter/Inter-Regular.woff2),
+    url(Inter/Inter-Regular.woff) format("woff");
     font-style: normal;
     font-weight: normal;
     font-display: swap;
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'Inter', sans-serif;
-    src: url(../fonts/Inter-Bold.woff2),
-    url(../fonts/Inter-Bold.woff);
+    src: url(Inter/Inter-Bold.woff2),
+    url(Inter/Inter-Bold.woff) format("woff");
     font-style: normal;
     font-weight: bold;
     font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Inter', sans-serif;
-    src: url(../fonts/Inter-Black.woff2),
-    url(../fonts/Inter-Black.woff);
+    src: url(Inter/Inter-Black.woff2),
+    url(Inter/Inter-Black.woff) format("woff");
     font-style: normal;
     font-weight: 900;
     font-display: swap;
