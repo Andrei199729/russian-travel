@@ -2,7 +2,7 @@
     box-sizing: border-box;
     max-width: calc(100% - 264px);
     margin: 0 auto 32px;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
     font-size: 96px;
     line-height: 100px;
     font-weight: 900;

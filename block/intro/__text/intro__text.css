@@ -2,13 +2,13 @@
     box-sizing: border-box;
     max-width: 690px;
     margin: 0 0 33px;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) {
     .intro__text {
         width: calc(100%);
         height: auto;

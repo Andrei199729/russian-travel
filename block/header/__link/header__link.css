@@ -1,6 +1,6 @@
-.header__lang-link {
+.header__link {
     margin-left: 18px;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
     font-size: 24px;
     font-weight: normal;
     line-height: 28px;
@@ -9,17 +9,17 @@
     transition: opacity .2s linear;
 }
 
-.header__lang-link:first-child {
+.header__link:first-child {
     margin-left: 0;
 }
 
-.header__lang-link:hover {
+.header__link:hover {
     text-decoration: underline;
     opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
-     .header__lang-link {
+    .header__link {
         font-size: 18px;
         line-height: 20px;
     }
